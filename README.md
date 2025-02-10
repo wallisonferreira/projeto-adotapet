@@ -85,9 +85,9 @@ https://localhost:9000/api/auth/signup
 **Body (**json)
 
 `{
-    "username":"Wallison Ferreira",
-    "email":"wall@wall.com",
-    "password":"wallison"
+    "username":"user1",
+    "email":"user1@user1.com",
+    "password":"user1"
 }`
 
 ## **Users**
@@ -102,7 +102,7 @@ https://localhost:9000/config/user/
 
 **Content-Type** application/json
 
-**Authorization** Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1MzU3MzcsImV4cCI6MTY3NDUzNjA5N30.hRX-L1-vYk5B-O8_YTATqBQwMX43py-HaY2KmRu4NMPuA_Ylf2Xoqp5JFR0UjoKvomD9EXCILSbe7P3zDxI6Gg
+**Authorization** Bearer <token>
 
 ****GET User****
 
@@ -116,7 +116,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ4NzA1OTYsImV4cCI6MTY3NDg3MDk1Nn0.Lp_LioVbgfg66seW3jtlGgWK0ovQjfKfogqnpd11z7bTEuf6LrKqhHOw78KD7V1YVJcgDQkT9gPU9r6O8uMWyA
+Bearer <token>
 
 ****GETSearchUserByRole[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -134,7 +134,7 @@ application/json
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ4Njk5MzEsImV4cCI6MTY3NDg3MDI5MX0.g110j56tBeZVruuZ0_2-kYHJ8tSvl_-51Gr8zPOoFE5aGdiDOTX6WoxV0X1qdjCTRE3DhThCcUfZVzxdFiRp9w
+Bearer <token>
 
 **Query Params**
 
@@ -154,7 +154,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTAzNzksImV4cCI6MTY3NDk1MDczOX0.M3GkKX2AZEPZvIvm25fWp9W0FtgHpkU2ksvNV7-QqCk4deBRtcH5oyddKZPa29FgLRIRtcQfKi61sHNaNcF-bA
+Bearer <token>
 
 **Query Params**
 
@@ -174,7 +174,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ4NzA1OTYsImV4cCI6MTY3NDg3MDk1Nn0.Lp_LioVbgfg66seW3jtlGgWK0ovQjfKfogqnpd11z7bTEuf6LrKqhHOw78KD7V1YVJcgDQkT9gPU9r6O8uMWyA
+Bearer <token>
 
 **Body**raw (json)
 
@@ -183,7 +183,7 @@ json
 `{
     "name": "Daniel Right",
     "email": "daniel@mail.cobit",
-    "password":"admin"
+    "password":"user"
 }`
 
 ****PUTUserUpdate[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
@@ -198,8 +198,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ4NzEwNDYsImV4cCI6MTY3NDg3MTQwNn0.WRZcz8beXVELNpOuY1LZbY2BAkpZhJ0gpaRVJz_Qhmh2E8Kk198MCiZStG4tTfstMs3uJvRJpzl_aShzWw7ODg
-
+Bearer <token>
 **Body**raw (json)
 
 View More
@@ -207,8 +206,8 @@ View More
 json
 
 `{
-    "name": "Daniel Elias",
-    "email": "djean@gmail.com",
+    "name": "User1",
+    "email": "user1@user1.com",
     "cpf": null,
     "phone": null,
     "age": 23,
@@ -251,7 +250,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 ****GETPet[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -265,7 +264,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 ****GETPetSearch[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -279,7 +278,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 **Query Params**
 
@@ -299,7 +298,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTc2NjIsImV4cCI6MTY3NDk1ODAyMn0.AxVmkGfORnI0koTz52j8ex--MHLRhNKtWhlXueNqqatFiU7wGHf-Inr8Yt8de2GA3FMmXXoeA0LFsuyEnriaWg
+Bearer <token>
 
 **Body**raw (json)
 
@@ -334,7 +333,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTc2NjIsImV4cCI6MTY3NDk1ODAyMn0.AxVmkGfORnI0koTz52j8ex--MHLRhNKtWhlXueNqqatFiU7wGHf-Inr8Yt8de2GA3FMmXXoeA0LFsuyEnriaWg
+Bearer <token>
 
 **Body**raw (json)
 
@@ -369,7 +368,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -403,7 +402,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -438,7 +437,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ5NTA4NjgsImV4cCI6MTY3NDk1MTIyOH0.rJ5puI24KhCg62trpaAVqU6FqrdFcE4YLuiGgdWmdTXXS1KPab8a5Mo7XNsZ6FSni0QepAAEhiG4FcIP849bSQ
+Bearer <token>
 
 ## **Specie**
 
@@ -456,7 +455,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NTE5ODgsImV4cCI6MTY3NDc1MjM0OH0.nCTz85IYiCk04B0DGfAgf6thl91qL4QmAqE-g6UNsBCxvotcoqVue94-fKsONr87eisQfw9aD2rSrh0BCBDWgQ
+Bearer <token>
 
 ****GETSpecie[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -470,7 +469,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NTI0MjQsImV4cCI6MTY3NDc1Mjc4NH0.teo2Oteplf7IRLzoFbqEB_WtpM2Vky4UiIu73N3svi8Kt9802SxOVr_vqPaqcsSJlK9MQ0YZsUN6UDBO6aWWNg
+Bearer <token>
 
 ****POSTSpecieStore[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -484,7 +483,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NTM4MjIsImV4cCI6MTY3NDc1NDE4Mn0.KSuPRfKtqCvVrzqK859baoD3pNMjf8cRpOnmapotmMS8Rg0H7NJLuEKDPIBj6bdThTKJDIwBu-rIHaJJZ-yIXQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -506,7 +505,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NTM4MjIsImV4cCI6MTY3NDc1NDE4Mn0.KSuPRfKtqCvVrzqK859baoD3pNMjf8cRpOnmapotmMS8Rg0H7NJLuEKDPIBj6bdThTKJDIwBu-rIHaJJZ-yIXQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -528,7 +527,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NTM4MjIsImV4cCI6MTY3NDc1NDE4Mn0.KSuPRfKtqCvVrzqK859baoD3pNMjf8cRpOnmapotmMS8Rg0H7NJLuEKDPIBj6bdThTKJDIwBu-rIHaJJZ-yIXQ
+Bearer <token>
 
 ## **Race**
 
@@ -546,7 +545,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3Njk0MjIsImV4cCI6MTY3NDc2OTc4Mn0.gs86wWgQXz9ygD2NSfzwvWOvTN3WfNam73SC2I5YT1Tl8nEh3EMz-ObEcy0UlULiJ9u1qld9x19CR5FLca8FPg
+Bearer <token>
 
 ****GETRace[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -560,7 +559,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3Njk5MjAsImV4cCI6MTY3NDc3MDI4MH0.eKfAf9ExP3lzmFOcxq0qZbi1O9cBZivZhwnVVWNfMaFVj3AotfVSKPs23P1R_N5E8S0CEp25iBvzTWJdp2Qp7A
+Bearer <token>
 
 ****GETRaceSearch[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -574,7 +573,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzU2NDAsImV4cCI6MTY3NDc3NjAwMH0.J0OiaIL_rkJGSLDkaUuqczynGTwPbms6T3nhQI9nYg1kgH-mwOMKFN8fvNML9TdQyPRVjt-OzK0jv7H-rQcUfg
+Bearer <token>
 
 **Query Params**
 
@@ -594,7 +593,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzA2MTgsImV4cCI6MTY3NDc3MDk3OH0.w1x1_MRn10zIvaQ2rGoCvhRjM6kLyfWafs2un4HAuKe8fT3RZ8quR8-PHIbSs9UD1JpCsoZFrSpHSNWgXiu0rQ
+Bearer <token>
 
 ****POSTRaceStore[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -608,7 +607,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzE5MzIsImV4cCI6MTY3NDc3MjI5Mn0.848PFFuYJCx05aSwIitGyS6pzVv2ULQT7-0uaspbLTft6_oAD5_r5uSdMraJFU_IrnJxu_066s1Dk4SAIPS4mQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -631,7 +630,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzE5MzIsImV4cCI6MTY3NDc3MjI5Mn0.848PFFuYJCx05aSwIitGyS6pzVv2ULQT7-0uaspbLTft6_oAD5_r5uSdMraJFU_IrnJxu_066s1Dk4SAIPS4mQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -655,7 +654,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzE5MzIsImV4cCI6MTY3NDc3MjI5Mn0.848PFFuYJCx05aSwIitGyS6pzVv2ULQT7-0uaspbLTft6_oAD5_r5uSdMraJFU_IrnJxu_066s1Dk4SAIPS4mQ
+Bearer <token>
 
 ## **Color**
 
@@ -673,7 +672,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzI4OTksImV4cCI6MTY3NDc3MzI1OX0.cgcNCkSWdZAFAYwsT6X0gajtozaeGD9C1hw5o6fLiMzrr3glwlLgOIuQ6DgGMK6tidkGKrq-W6cHUGK59UoD-w
+Bearer <token>
 
 ****GETColor[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -687,7 +686,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzI4OTksImV4cCI6MTY3NDc3MzI1OX0.cgcNCkSWdZAFAYwsT6X0gajtozaeGD9C1hw5o6fLiMzrr3glwlLgOIuQ6DgGMK6tidkGKrq-W6cHUGK59UoD-w
+Bearer <token>
 
 ****POSTColorStore[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -701,7 +700,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzMxODksImV4cCI6MTY3NDc3MzU0OX0.mWPyvtqq1fkXsJUyLU8nhwLMrS0FH1anf3N77wJI0WdFLrYox5rFzjFiX3TvNnINKZ3mG0qx8yeoEfWSrXtJjQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -723,7 +722,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzMxODksImV4cCI6MTY3NDc3MzU0OX0.mWPyvtqq1fkXsJUyLU8nhwLMrS0FH1anf3N77wJI0WdFLrYox5rFzjFiX3TvNnINKZ3mG0qx8yeoEfWSrXtJjQ
+Bearer <token>
 
 **Body**raw (json)
 
@@ -746,7 +745,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzMxODksImV4cCI6MTY3NDc3MzU0OX0.mWPyvtqq1fkXsJUyLU8nhwLMrS0FH1anf3N77wJI0WdFLrYox5rFzjFiX3TvNnINKZ3mG0qx8yeoEfWSrXtJjQ
+Bearer <token>
 
 ## **Size**
 
@@ -764,7 +763,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzUwNjIsImV4cCI6MTY3NDc3NTQyMn0.nLLrY-BAHnguGAmoq0yAfpfGTfLMY1lIyuNUwq9ouyGzfzQ9069q1q8lguAP0xE5m8FnnJIBM_SblYyIR9l_5w
+Bearer <token>
 
 ****GETSize[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -778,7 +777,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzQzMDYsImV4cCI6MTY3NDc3NDY2Nn0.BQjEtD9NDP4f5DQcQv3QKGuHtzfT9bpeKnZrIGCAx0VWYXR35Iqt0yRPVjP6k_oRhK-rP8PTWc-dNAO-bVG2Vw
+Bearer <token>
 
 ****POSTSizeStore[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -792,7 +791,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzUzMTUsImV4cCI6MTY3NDc3NTY3NX0.P-uTji8JFa49Nv_mj3w2woiUyl7h_tCxzcQuXA8894T4mk3Dx5wrX4Xubg631gmPXjyG7e9U_vUHnEY4x9Jlog
+Bearer <token>
 
 **Body**raw (json)
 
@@ -814,7 +813,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzUzMTUsImV4cCI6MTY3NDc3NTY3NX0.P-uTji8JFa49Nv_mj3w2woiUyl7h_tCxzcQuXA8894T4mk3Dx5wrX4Xubg631gmPXjyG7e9U_vUHnEY4x9Jlog
+Bearer <token>
 
 **Body**raw (json)
 
@@ -836,7 +835,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ3NzUzMTUsImV4cCI6MTY3NDc3NTY3NX0.P-uTji8JFa49Nv_mj3w2woiUyl7h_tCxzcQuXA8894T4mk3Dx5wrX4Xubg631gmPXjyG7e9U_vUHnEY4x9Jlog
+Bearer <token>
 
 ## **Ongs**
 
@@ -854,7 +853,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1ODM5MDcsImV4cCI6MTY3NDU4NDI2N30.M425wQ9mXfmWVeykkmDECNkByTu4TppYhbYmGtX8cJVFzAcfyZyXPBsbHSSgHbby9KSCRqEK9t5FtsL4AJFH5g
+Bearer <token>
 
 ****GETFeedPets[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -868,7 +867,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1Mzc3MzIsImV4cCI6MTY3NDUzODA5Mn0.8eMuv6mC7Md5lF44gRDAMPAeZCXJFjW5TjxiLGdCTpxCyUs5mzFK2W1odC7wVBkYwLhGx0IABhbpZ8tU1ylYbQ
+Bearer <token>
 
 ## **Adoptions**
 
@@ -886,7 +885,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1NzQyMTYsImV4cCI6MTY3NDU3NDU3Nn0.MpHZSMNQzUoKfR05OJSfZd6XTbG-GNw3K69VueM9biBwdCU3n8MgfHrySIHoxOyc7lt7HXn52M7lbgvX260vOg
+Bearer <token>
 
 ****POSTAdoption[Open Request](https://desktop.postman.com/?desktopVersion=10.8.0&userId=1320414&teamId=0)**
 
@@ -900,7 +899,7 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1ODM5MDcsImV4cCI6MTY3NDU4NDI2N30.M425wQ9mXfmWVeykkmDECNkByTu4TppYhbYmGtX8cJVFzAcfyZyXPBsbHSSgHbby9KSCRqEK9t5FtsL4AJFH5g
+Bearer <token>
 
 **Body**raw (json)
 
@@ -929,4 +928,4 @@ Add request description…
 
 **Authorization**
 
-Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhZG1pbi5jb20iLCJpYXQiOjE2NzQ1NTQ3ODAsImV4cCI6MTY3NDU1NTE0MH0.IpcnpZNAZy1mieyyFSzhgpz9Wen4IPqDc8Kcd_c5jE1MR5kpOMgTNEjRL7x3-CtJ_tzyw77I-yMB5idW1Ww4Fw
+Bearer <token>
